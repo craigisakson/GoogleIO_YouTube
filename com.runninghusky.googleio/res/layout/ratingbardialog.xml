@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<RatingBar android:id="@+id/ratingbar" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:numStars="0"
+		android:stepSize="1.0" />
+	<Button android:id="@+id/ButtonSave" android:layout_below="@+id/NumberPickHour"
+		android:layout_width="148dip" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:text="Save"
+		android:paddingTop="10dip" />
+
+</LinearLayout>

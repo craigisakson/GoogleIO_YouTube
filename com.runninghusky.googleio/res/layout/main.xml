@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<EditText android:id="@+id/EditTextSearchBar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:hint="Some Cool Video..." android:singleLine="True"
+		android:layout_marginTop="7dip" />
+	<ListView android:id="@+id/ListViewResults"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:fadingEdge="vertical" android:scrollingCache="true"
+		android:fadingEdgeLength="25px" android:cacheColorHint="#00000000"
+		android:paddingLeft="3px" android:layout_gravity="bottom|right"
+		android:layout_marginTop="5px" android:layout_marginBottom="50px">
+	</ListView>
+
+	<RelativeLayout android:layout_marginTop="-50dip"
+		android:gravity="bottom" android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<Button android:id="@+id/ButtonSearchVideos"
+			android:layout_gravity="bottom" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="Search Videos"
+			android:layout_marginTop="5dip" />
+	</RelativeLayout>
+</LinearLayout>

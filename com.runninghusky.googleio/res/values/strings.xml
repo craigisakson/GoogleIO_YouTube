@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, start!</string>
+    <string name="app_name">Captioned YouTube Videos</string>
+<!--     <string name="yes">Yes</string> -->
+<!--     <string name="no">No</string> -->
+<!--     <string name="good">Good</string> -->
+<!--     <string name="fair">Fair</string> -->
+<!--     <string name="poor">Poor</string> -->
+</resources>
